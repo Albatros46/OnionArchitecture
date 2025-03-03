@@ -8,7 +8,7 @@ namespace MovieAPI.Application.Feature.CQRS_DesignPattern.Results.MovieResult
 {
     public class getMovieQueryResult
     {
-        public int Id { get; set; }
+        public int movieId { get; set; }
         public string Title { get; set; }
         public string coverImageUrl { get; set; }
         public decimal Ratig { get; set; }

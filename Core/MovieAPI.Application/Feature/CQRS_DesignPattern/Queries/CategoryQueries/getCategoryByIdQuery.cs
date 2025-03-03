@@ -8,6 +8,11 @@ namespace MovieAPI.Application.Feature.CQRS_DesignPattern.Queries.CategoryQuerie
 {
     public class getCategoryByIdQuery
     {
+        public getCategoryByIdQuery(int id)
+        {
+            Id = id;
+        }
+
         public int Id { get; set; }
     }
 }
